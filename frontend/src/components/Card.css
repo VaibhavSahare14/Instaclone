@@ -1,0 +1,56 @@
+.card {
+    border: 1px solid gray;
+    width: 40vw;
+    margin: 1em auto;
+    background-color: white;
+}
+
+.imageHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5em 1em;
+}
+
+.ellipsis {
+    justify-self: right;
+    align-self: center;
+}
+
+.image {
+
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.image-container {
+    margin-bottom: 1em;
+}
+
+.reaction-container {
+    padding: 0 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8em;
+}
+
+.heart {
+    background-color: white;
+    border: none;
+}
+
+.likes {
+    color: gray;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.date {
+    justify-self: right;
+    color: gray;
+}
+
+.descriptionContainer {
+    padding: 0.5em 0.5em 1.5em 1.2em;
+    font-size: 0.9em;
+}
