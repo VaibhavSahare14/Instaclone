@@ -13,7 +13,7 @@ const PostView = () => {
         const getData = async () => {
             //const response = await axios.get('./data.json');
 
-            const response = await axios.get("https://instaclone-vaibhav-api.herokuapp.com/post");
+            const response = await axios.get("https://instaclone-backend-weer.onrender.com/post");
             //console.log(data)
             response.data.reverse()
 

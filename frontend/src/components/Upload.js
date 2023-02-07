@@ -44,7 +44,7 @@ const Upload = () => {
 
         //console.log("data", formData);
         try {
-            fetch("https://instaclone-vaibhav-api.herokuapp.com/post", {
+            fetch("https://instaclone-backend-weer.onrender.com/post", {
                 method: "POST",
                 body: form
             }).then(resp => resp.json()).then(response => {

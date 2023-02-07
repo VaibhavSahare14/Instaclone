@@ -13,9 +13,7 @@ const mongoose = require("mongoose");
 main().catch((err) => console.log(err));
 
 async function main() {
-    await mongoose.connect(
-        "mongodb+srv://Instaclone:Vaibhav@cluster0.nvjr7e8.mongodb.net/?retryWrites=true&w=majority"
-    );
+    await mongoose.connect(process.env.DB_URL);
     console.log("Database Connected");
 }
 
